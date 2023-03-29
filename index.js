@@ -12,7 +12,6 @@ const Theme = {
   DARK: "dark-theme",
 };
 
-// розмітка
 const createMenuCards = function (menu) {
   return menu.map(listTpl).join("");
 };
@@ -20,7 +19,6 @@ const createMenuCards = function (menu) {
 const menuCards = createMenuCards(menu);
 refs.list.insertAdjacentHTML("beforeend", menuCards);
 
-// зміна теми
 const onChangeTheme = function () {
   if (refs.checkBox.checked) {
     refs.body.classList.add(Theme.DARK);

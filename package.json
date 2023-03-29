@@ -1,28 +1,28 @@
 {
-  "dependencies": {
-    "gh-pages": "^4.0.0",
-    "handlebars-loader": "^1.7.2",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-plugin-nuke-dist": "^1.0.1"
-  },
+  "author": "",
+  "license": "ISC",
   "name": "goit-js-hw-10-food-service",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "",
+  "homepage": "https://github.com/Alinchyk/goit-js-hw-10-food-service",
+  "bugs": {
+    "url": "https://github.com/Alinchyk/goit-js-hw-10-food-service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alinchyk/goit-js-hw-10-food-service.git"
+  },
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html --public-url /goit-js-hw-10-food-service/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alinchyk/goit-js-hw-10-food-service.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Alinchyk/goit-js-hw-10-food-service/issues"
-  },
-  "homepage": "https://github.com/Alinchyk/goit-js-hw-10-food-service",
-  "description": ""
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "handlebars-loader": "^1.7.2",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
 }
